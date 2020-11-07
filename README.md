@@ -44,3 +44,5 @@ create_mesh(xvals,yvals,example_function,example_abs_grad,\
 ```
 Inside blender this produces
 ![GitHub Logo](/example.png)
+
+In order to 3d print this, one can just loop select the outer boundary and extrude downwards in the z direction, folloed by scaling to zero in the z direction to give all points the same z-value. Then just press f to make a face there. When exporting to STL, I always forget how to get blender to produce sensible sizes, so I just adjust that on the slicer.
